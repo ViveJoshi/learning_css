@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body {
+                font-size: 20px;
+                background-color: red;
+            }
+            /*from 320px and up ,until 767px*/
+        @media (min-width:320px)and (max-width:767px) {
+            
+            p{
+                display: none;
+            }
+            h1,h3{
+                color: white;
+
+            }
+            .img1{
+                display: none;
+            }
+        }
+         /*from 850px and up ,until 950px*/
+        @media (min-width:850px)and (max-width:950px) {
+            body {
+                background-color: purple;
+            }
+            h1,h3{
+                color: white;
+            }
+            .img1{
+                display: none;
+            }
+        }
+        /*from 950px and up ,until 1200px*/
+        @media (min-width:950px)and (max-width:1200px) {
+            body {
+                background-color: pink;
+            }
+            h1,h3{
+                color: white;
+            }
+            .img1{
+                display: none; 
+               
+            }
+        }
+        /*from 1200px and up ,until 1500px*/
+        @media (min-width:1200px)and (max-width:1500px) {
+            body {
+                background-color: blue;
+            }
+            h1,h3{
+                color: white;
+            }
+            .img1{
+                display: none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aperiam error, cum quia dicta distinctio, odit aspernatur vero expedita adipisci illo esse iste iusto! Cumque deserunt ad quae doloremque. Ad?</p>
+    <h1> CSS Media Queries</h1>
+    <p> The background will change according to the viewreport width change </p><br><br>
+    <img class="img1" src="https://cdn.pixabay.com/photo/2025/08/01/13/35/winter-9748652_1280.jpg" alt="social">
+    <h3>smartphones - <span class="desc">from 320px and up (min-width:320px)</span></h3>
+    <p>red</p>
+
+
+</body>
+</html>
