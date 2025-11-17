@@ -9,20 +9,21 @@
             display: flex;
             justify-content: center;
             letter-spacing: 4px;
-            font-size: 70px;
+            font-size: 180px;
             font-weight: 900;
             perspective: 100px;
 
         }
         .text-container > b {
-            height: 80px;
+            height: 200px;
             box-shadow: 0px 5px 8px goldenrod;
             background: linear-gradient(to right, red, orange, yellow, green, blue );
             background-clip:text ;
             color:transparent;
-            transform-origin: top;
+            transform-origin: bottom; ;
             transform: rotate(85deg);
             animation: getUp 5s infinite ;
+          
         }
         .text-container > b:nth-child(1) {
             animation-delay: 0s;}
@@ -33,7 +34,18 @@
         .text-container > b:nth-child(4) {
             animation-delay: 0.75s;   }
         .text-container > b:nth-child(5) {
-            animation-delay: 1s; }
+            animation-delay: 1s; } 
+        .text-container > b:nth-child(6) {
+            animation-delay: 1.25s; }
+         .text-container > b:nth-child(7) {
+            animation-delay: 1.50s; }   
+        .text-container > b:nth-child(8) {
+            animation-delay: 1.75s; }
+        .text-container > b:nth-child(9) {
+            animation-delay: 2s; }
+        .text-container > b:nth-child(10) {
+            animation-delay: 2.25s; }
+            
         @keyframes getUp {
             from{transform: rotateX(85deg);}
             10%,50%{transform: rotateX(-0deg);}
@@ -48,7 +60,7 @@
 <body>
 <div class="text-container">
     <b>V</b> <b>I</b> <b>V</b> <b>E</b> <b>K</b>
-
+    <b>J</b> <b>O</b> <b>S</b> <b>H</b> <b>I</b>
 </div>    
   
 </body>
